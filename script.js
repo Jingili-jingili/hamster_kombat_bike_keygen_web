@@ -65,7 +65,6 @@ function applyTranslations(translations) {
         : translations.selectKeyCountLabel;
     document.getElementById('startBtn').innerText = translations.generateButton;
     document.getElementById('generatedKeysTitle').innerText = translations.generatedKeysTitle;
-    document.getElementById('creatorChannelBtn').innerText = translations.footerButton;
     document.getElementById('copyAllBtn').innerText = translations.copyAllKeysButton;
     document.getElementById('gameSelectLabel').innerText = translations.selectGameLabel;
 
