@@ -41,20 +41,7 @@
                 <option value="MergeAway">Merge Away</option>
             </select>
             <label for="keyCountSelect" id="keyCountLabel">Выберите количество ключей для генерации:</label>
-            <select id="keyCountSelect">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-            </select>
+            <input type="number" id="keyCountSelect" min="1" value="1">
             <button id="startBtn" class="button">Сгенерировать ключи</button>
             <div id="progressContainer" class="progress-container hidden">
                 <div id="progressBar" class="progress-bar"></div>
@@ -65,8 +52,7 @@
                 <button id="copyAllBtn" class="button hidden">Скопировать все ключи</button>
                 <div id="keysList" class="keys-list"></div>
             </div>
-        </section>
-        <button id="creatorChannelBtn" class="button footer-button">Powered by Project PDoSI</button>
+        </sectio>
     </main>
 </body>
 </html>
