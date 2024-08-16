@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Генератор Ключей Hamster Kombat</title>
+    <title>Hamster Kombat</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
@@ -31,8 +31,8 @@
             </select>
         </section>
         <section class="container">
-            <h1>Генератор Ключей Hamster Kombat</h1>
-            <label for="gameSelect" id="gameSelectLabel">Выберите игру для генерации ключа:</label>
+            <h1>Hamster Kombat Key Generator</h1>
+            <label for="gameSelect" id="gameSelectLabel">select a game:</label>
             <select id="gameSelect">
                 <option value="MyCloneArmy">My Clone Army</option>
                 <option value="ChainCube2048">Chain Cube 2048</option>
@@ -40,16 +40,16 @@
                 <option value="BikeRide3D">Bike Ride 3D</option>
                 <option value="MergeAway">Merge Away</option>
             </select>
-            <label for="keyCountSelect" id="keyCountLabel">Выберите количество ключей для генерации:</label>
+            <label for="keyCountSelect" id="keyCountLabel">Select the number of keys to generate:</label>
             <input type="number" id="keyCountSelect" min="1" value="1">
-            <button id="startBtn" class="button">Сгенерировать ключи</button>
+            <button id="startBtn" class="button">Generate keys</button>
             <div id="progressContainer" class="progress-container hidden">
                 <div id="progressBar" class="progress-bar"></div>
                 <span id="progressText" class="progress-text">0%</span>
             </div>
             <div id="keyContainer" class="key-container hidden">
-                <h2 id="generatedKeysTitle">Сгенерированные ключи:</h2>
-                <button id="copyAllBtn" class="button hidden">Скопировать все ключи</button>
+                <h2 id="generatedKeysTitle">Generated keys:</h2>
+                <button id="copyAllBtn" class="button hidden">Copy all keys</button>
                 <div id="keysList" class="keys-list"></div>
             </div>
         </sectio>
